@@ -26,5 +26,5 @@ git clone https://github.com/matheusg18/trybe_alarms.git ~/trybe_alarms
 
 ### Considerações finais
 
-Espero que vocês trybers testem e me mandem feedbacks. :thumbsup:
+Espero que vocês trybers testem e me mandem feedbacks. :thumbsup:  
 Pretendo deixar o projeto mais robusto com o tempo e vou tentar mandar o comando da agenta do dia todos os dias.
