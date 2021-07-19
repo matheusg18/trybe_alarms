@@ -2,7 +2,7 @@
 
 Trybe Alarms é um projeto feito para avisar os trybers dos eventos síncronos e assíncronos do dia.
 
-`trybe_alarms.sh` é um shell script a ser executado com argumentos, estes arugemtos são:
+`trybe_alarms.sh` é um shell script a ser executado com argumentos, estes argumentos são:
 1. A hora do evento, no formato hh:mm
 2. O nome do evento
 
