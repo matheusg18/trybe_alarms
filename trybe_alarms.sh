@@ -9,7 +9,7 @@ add_alarm()
     SLEEP_SECONDS=$(($TARGET_TIME - $CURRENT_TIME))
 
     echo "================================================================"
-    if [ $SLEEP_SECONDS -lt 0 ];
+    if [ $SLEEP_SECONDS -lt 0 ]
         then
             echo -e "\tPassou do horário de \"$2\"!"
         else
@@ -23,9 +23,9 @@ i=0
 TRYBE_HOUR=""
 
 #Main loop
-for arg in "$@";
+for arg in "$@"
     do
-        if [ $i -eq 0 ];
+        if [ $i -eq 0 ]
             then
                 TRYBE_HOUR=$arg
                 i=1
