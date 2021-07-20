@@ -13,7 +13,7 @@ add_alarm()
         then
             echo -e "\tPassou do horário de \"$2\"!"
         else
-            (sleep $SLEEP_SECONDS && notify-send -t 0 Trybe "$2") &
+            (sleep $SLEEP_SECONDS && notify-send -i ~/trybe_alarms/resources/betrybe.jpg -t 10 Trybe "$2") &
             echo -e "\tAviso de \"$2\" criado para as \"$1\""
     fi
 }
