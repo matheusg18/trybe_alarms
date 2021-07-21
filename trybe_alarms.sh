@@ -38,7 +38,7 @@ add_alarm()
         then
             echo -e "---> Já passou do horário de \"$2\"!"
         else
-            (sleep $SLEEP_SECONDS && notify-send -i ~/trybe_alarms/resources/betrybe.jpg -t 5 Trybe "$2" && remove_alarm_from_log "$1") &
+            (sleep $SLEEP_SECONDS && notify-send -i ~/trybe_alarms/resources/betrybe.jpg -u normal Trybe "$2" && remove_alarm_from_log "$1") &
             register_alarm "$1" "$2"
     fi
 }
