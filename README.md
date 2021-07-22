@@ -39,7 +39,7 @@ O shell script `trybe_alarms.sh` pode ser usado de 2 modos:
 
 <br /><br />Quando o `trybe_alarms.sh` é executado ele cria temporizadores de acordo com os argumentos passados. Então quando chega no tempo indicado é mostrada uma notificação que te lembra do evento. Se o horário passado for anterior ao do momento atual o terminal avisa que você perdeu o evento.
 
-![Notification](https://raw.githubusercontent.com/matheusg18/trybe_alarms/main/resources/trybe_notification.jpg)
+![Notification](https://raw.githubusercontent.com/matheusg18/trybe_alarms/dev/resources/trybe_notification.jpg)
 
 ### Instalação  
 
