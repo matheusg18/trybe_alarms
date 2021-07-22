@@ -16,14 +16,19 @@ remove_alarm_from_log()
 
 show_log()
 {
-    # https://stackoverflow.com/questions/10929453/read-a-file-line-by-line-assigning-the-value-to-a-variable
-    while IFS= read -r line || [[ -n "$line" ]]
-        do
-            echo "================================================================"
-            echo -e "\t$line"
-        done < ~/trybe_alarms/logs/alarm_log.txt
+    if [ -s ~/trybe_alarms/logs/alarm_log.txt ]
+        then
+            # https://stackoverflow.com/questions/10929453/read-a-file-line-by-line-assigning-the-value-to-a-variable
+            while IFS= read -r line || [[ -n "$line" ]]
+                do
+                    echo "================================================================"
+                    echo -e "\t$line"
+                done < ~/trybe_alarms/logs/alarm_log.txt
 
-    echo "================================================================"
+            echo "================================================================"
+        else
+            echo "---> Não há nenhum alarme!"
+    fi
 }
 
 add_alarm()
